@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0;
+}
+body{
+    background-image: url(./image/background.avif);
+    background-size: cover;
+}
+
+.header{
+    font-family: 'DM Sans', Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: #405D72;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-color{
+    background-color: #f5f5f5;
+}
+
+.navbar-item{
+    color: #405D72;
+}
+.carousel-image{
+    height: 300px;
+    object-fit: cover;
+}
+.corousel-name{
+    font-family: 'Wix Madefor Text', Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #F2F1EB;
+}
+.corousel-detail{
+    font-size: 16px;
+}
+
+.image {
+    filter: brightness(0.5); /* reduce brightness by 50% */
+}
+
+.footer{
+    padding: 50px 15% 20px;
+    background-color: #1f2d38;
+}
+
+.footer-name{
+    text-decoration: none;
+    display: block;
+    color: #405D72;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.copyright-txt{
+    text-align: center;
+    color: #777;
+}
+.line{
+    color: #F2F1EB;
+}
+
+.blur-background{
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(5px); /* adjust the value to control the amount of blur */
+    backdrop-filter: opacity(0.5);
+}
+
+
+@media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column;
+    }
+}
